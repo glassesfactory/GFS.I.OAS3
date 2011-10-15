@@ -17,7 +17,7 @@ Flash からでも簡単に WebSocket での通信ができるようになりま
 
 #It's α version!
 
-*Current version:0.1*  
+**Current version:0.1**  
 
 とりあえず僕自身が仕事で必要 + α ぐらいで書いたライブラリです。  
 出来る限り Socket.IO の仕様変更などには追従していきたいと思います。  
@@ -29,7 +29,7 @@ Flash からでも簡単に WebSocket での通信ができるようになりま
 
 It's a simply.  
 
-*Basic Using:*  
+**Basic Using:**  
 
 ```as3
 var socket:GFSIOAS3 = new GFSIOAS3( '127.0.0.1', 3000 );
@@ -54,7 +54,7 @@ socket.addEventListener( GFSIOAS3Event.CONNECTED, function(event:GFSIOAS3Event){
 socket.connect();
 ```
   
-*use Socket.IO NameSpcae:*  
+**use Socket.IO NameSpcae:**  
 
 ```as3
 _chat = new GFSIOAS3( '127.0.0.1', 3000, '/chat' );
